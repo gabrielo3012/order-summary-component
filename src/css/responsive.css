@@ -1,0 +1,22 @@
+@media(max-width: 425px) {
+  body {
+    background:url(../images/pattern-background-mobile.svg) center no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+  }
+  .container {
+    margin: 0 25px;
+  }
+  .card .plan-card {
+    max-width: 290px;
+    padding: 16px 15px;
+  }
+  .card .checkout-btns .payment-btn {
+    max-width: 290px;
+    padding: 20px 65px;
+    margin: 25px auto;
+  }
+  .card .checkout-btns .cancel-btn  {
+    margin-bottom: 35px;
+  }
+}
